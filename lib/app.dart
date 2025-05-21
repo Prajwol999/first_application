@@ -7,8 +7,10 @@
 // import 'package:first_application/model/arithmetic_model.dart';
 // import 'package:first_application/view/arithmetic_new_view.dart';
 // import 'package:first_application/view/container_view.dart';
-import 'package:first_application/view/flexible_expanded_view.dart';
+// import 'package:first_application/view/flexible_expanded_view.dart';
+// import 'package:first_application/view/student_view.dart';
 // import 'package:first_application/view/load_image_view.dart';
+import 'package:first_application/view/card_view.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -16,6 +18,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: FlexibleExpandedView());
+    return MaterialApp(home: CardView());
   }
 }
