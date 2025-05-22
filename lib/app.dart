@@ -10,7 +10,9 @@
 // import 'package:first_application/view/flexible_expanded_view.dart';
 // import 'package:first_application/view/student_view.dart';
 // import 'package:first_application/view/load_image_view.dart';
-import 'package:first_application/view/card_view.dart';
+// import 'package:first_application/view/card_view.dart';
+import 'package:first_application/view/calculator_view.dart';
+// import 'package:first_application/view/grid_screen.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -18,6 +20,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: CardView());
+    return MaterialApp(home: CalculatorView());
   }
 }
